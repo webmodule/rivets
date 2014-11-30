@@ -1,0 +1,23 @@
+{
+    "name": "jqgeeks/rivets",
+    "type": "library",
+    "description": "rivets library compatible with rudrax framework",
+    "keywords": ["rudra", "API"],
+    "license": "MIT",
+    
+    "require": {
+     	"jqgeeks/utils": "dev-master",
+    	"jqgeeks/vutils": "dev-master",
+    	"jqgeeks/observable": "dev-master",
+		"jqgeeks/tunnel": "dev-master"
+    }
+    
+    "rudrax" : {
+    	"modules" : [
+    		{
+				"name" : "rivets",    			
+				"file" : "dist/rivets.min.js"
+    		}
+    	] 
+    }
+}
