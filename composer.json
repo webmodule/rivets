@@ -9,14 +9,15 @@
     },
     
     "module_info" : {
-    	"modules" : [
+   		"modules" : [
     		{
 				"name" : "rivets",    			
 				"file" : "dist/rivets.min.js"
     		}
     	],
     	"bundles" : [
-    		"jqgeeks/rivets" : {
+    		{	
+    		 	"name" : "jqgeeks/rivets",
     			"on_modules" : ["rivets"],
     			"on_bundels" : [] 
     		}
