@@ -10,7 +10,7 @@
     	"jqgeeks/vutils": "dev-master",
     	"jqgeeks/observable": "dev-master",
 		"jqgeeks/tunnel": "dev-master"
-    }
+    },
     
     "rudrax" : {
     	"modules" : [
