@@ -8,11 +8,17 @@
     "require": {
     },
     
-    "rudrax" : {
+    "module_info" : {
     	"modules" : [
     		{
 				"name" : "rivets",    			
 				"file" : "dist/rivets.min.js"
+    		}
+    	],
+    	"bundles" : [
+    		"jqgeeks/rivets" : {
+    			"on_modules" : ["rivets"],
+    			"on_bundels" : [] 
     		}
     	] 
     }
