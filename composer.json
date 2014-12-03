@@ -1,5 +1,5 @@
 {
-    "name": "jqgeeks/rivets",
+    "name": "webmodules/rivets",
     "type": "library",
     "description": "rivets library compatible with rudrax framework",
     "keywords": ["rudra", "API"],
